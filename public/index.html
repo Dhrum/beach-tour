@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rügen Coastline — 9 Beaches Master Plan</title>
+<meta name="description" content="A four-day coastal expedition along Germany's Rügen island — 9 beaches, itinerary, train connections, weather, planner and shared crew notes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<header class="nav" id="nav">
+  <a href="#top" class="brand">
+    <span class="brand-mark">🌊</span>
+    <span class="brand-text">Rügen<strong>Coast</strong></span>
+  </a>
+  <nav class="nav-links">
+    <a href="#crew">Crew</a>
+    <a href="#itinerary">Itinerary</a>
+    <a href="#connections">Getting there</a>
+    <a href="#route">Route</a>
+    <a href="#beaches">Beaches</a>
+    <a href="#weather">Weather</a>
+    <a href="#planner">Planner</a>
+  </nav>
+  <a href="#planner" class="nav-cta">Costs & packing</a>
+  <button class="nav-burger" id="burger" aria-label="Toggle menu">☰</button>
+</header>
+
+<!-- ========== HERO ========== -->
+<section class="hero" id="top">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-inner">
+    <p class="hero-kicker">Baltic Sea · Germany · Mecklenburg-Vorpommern</p>
+    <h1 class="hero-title">The Rügen Coastline<br><em>Master Plan</em></h1>
+    <p class="hero-sub">Nine beaches. Four days. Six friends. One unforgettable stretch of the Baltic — chalk cliffs, white sand and pier-town charm, all reached on a single regional rail ticket.</p>
+    <div class="hero-meta">
+      <div class="hero-chip"><span>📅</span> June 3 – June 6</div>
+      <div class="hero-chip"><span>👥</span> 6 People</div>
+      <div class="hero-chip"><span>🎟️</span> €0 Transit (DB Ticket)</div>
+      <div class="hero-chip"><span>💶</span> ≈ €100 / person</div>
+    </div>
+    <div class="hero-actions">
+      <a href="#itinerary" class="btn btn-primary">View the itinerary</a>
+      <a href="#beaches" class="btn btn-ghost">Explore the 9 beaches</a>
+    </div>
+  </div>
+  <a href="#overview" class="hero-scroll" aria-label="Scroll down">↓</a>
+</section>
+
+<main>
+
+<!-- ========== OVERVIEW ========== -->
+<section class="section" id="overview">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The Expedition</span>
+      <h2>A coastline, end to end</h2>
+      <p class="lead">Base yourselves in Binz and sweep south along the island's most beautiful resort coast — from the quiet pines of Prora to the wild stone-sand shores of Göhren. This guide stitches every beach, train, break and euro into one easy rhythm.</p>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card"><div class="stat-num">9</div><div class="stat-label">Beaches covered</div></div>
+      <div class="stat-card"><div class="stat-num">4</div><div class="stat-label">Days on the island</div></div>
+      <div class="stat-card"><div class="stat-num">6</div><div class="stat-label">In the crew</div></div>
+      <div class="stat-card"><div class="stat-num">€100</div><div class="stat-label">Approx. per person</div></div>
+    </div>
+
+    <div class="highlight-grid">
+      <article class="highlight">
+        <span class="highlight-icon">🚆</span>
+        <h3>Travel light, travel free</h3>
+        <p>An overnight regional connection from Frankfurt drops you on the island by morning. Once there, Bus 20 and the RE9 link every beach town — all included on your ticket.</p>
+      </article>
+      <article class="highlight">
+        <span class="highlight-icon">🏡</span>
+        <h3>Cook, rest, repeat</h3>
+        <p>A central holiday rental in Binz keeps costs low. Midday breaks for home-cooked lunches mean afternoons stay fresh for the longer southern beaches.</p>
+      </article>
+      <article class="highlight">
+        <span class="highlight-icon">🌅</span>
+        <h3>Chase every sunset</h3>
+        <p>The plan is sequenced so each evening ends on a quiet, scenic shore — Schmachter See, Göhren's wild Südstrand — perfect for a slow golden-hour walk.</p>
+      </article>
+    </div>
+  </div>
+  <div class="container" data-comments="overview"></div>
+</section>
+
+<!-- ========== CREW ========== -->
+<section class="section section-alt" id="crew">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The Squad</span>
+      <h2>Meet the crew</h2>
+      <p class="lead">Six legends, one beach mission. (Profile pics auto-generated and 100% scientifically accurate.)</p>
+    </div>
+    <div class="crew-grid" id="crewGrid"><!-- rendered by app.js --></div>
+  </div>
+  <div class="container" data-comments="crew"></div>
+</section>
+
+<!-- ========== ITINERARY ========== -->
+<section class="section" id="itinerary">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Day by Day</span>
+      <h2>The four-day itinerary</h2>
+      <p class="lead">Tap a day to expand its timeline. Everything is paced for a relaxed group with plenty of wading, walking and resting built in.</p>
+    </div>
+
+    <div class="day-tabs" id="dayTabs">
+      <button class="day-tab is-active" data-day="d3">Jun 3 · Travel</button>
+      <button class="day-tab" data-day="d4">Jun 4 · Binz & Prora</button>
+      <button class="day-tab" data-day="d5">Jun 5 · Sellin → Göhren</button>
+      <button class="day-tab" data-day="d6">Jun 6 · Return</button>
+    </div>
+
+    <div class="day-panels">
+      <div class="day-panel is-active" data-day="d3">
+        <ol class="timeline">
+          <li><span class="t-time">20:00 – 06:30</span>
+            <div class="t-body"><h4>Overnight journey · Frankfurt → Rügen</h4>
+              <p>Regional trains (RE/RB) across the country to your base station at Bergen/Binz. ~10.5 hours of travel — see the full breakdown in <a href="#connections">Getting there</a>.</p>
+              <span class="t-tag">🚆 Regional Trains</span></div></li>
+        </ol>
+      </div>
+      <div class="day-panel" data-day="d4">
+        <ol class="timeline">
+          <li><span class="t-time">07:00 – 09:15</span>
+            <div class="t-body"><h4>Arrival & settle in · Binz / Prora Hub</h4>
+              <p>Drop luggage at the rental, then a grocery run for food and soft drinks.</p>
+              <span class="t-tag">🚶 Walk / Local Bus</span></div></li>
+          <li><span class="t-time">09:30 – 13:30</span>
+            <div class="t-body"><h4>Prora & Binz North</h4>
+              <p><strong>① Prora Beach</strong> — quiet sand walking near the historical complexes.<br><strong>② Binzer Strand</strong> — the main expansive stretch, clear shallow water, waist-deep wading.</p>
+              <span class="t-tag">🚆 RE9 / Bus 20 · &lt;10 min hops</span></div></li>
+          <li><span class="t-time">13:30 – 15:30</span>
+            <div class="t-body"><h4>Midday break · Holiday rental</h4>
+              <p>Cook lunch at home, rest, and pack cold-beverage bags for the evening.</p>
+              <span class="t-tag">🏡 Rest</span></div></li>
+          <li><span class="t-time">15:45 – 21:00</span>
+            <div class="t-body"><h4>Binz South & Centre</h4>
+              <p><strong>③ Südstrand Binz</strong> — quieter southern edge to relax on the sand.<br><strong>④ Fischerstrand</strong> — the old fishing sector with traditional boats.<br><strong>✦ Bonus:</strong> a sunset lakeside walk at Schmachter See.</p>
+              <span class="t-tag">🚶 Continuous beach walk · no transit</span></div></li>
+        </ol>
+      </div>
+      <div class="day-panel" data-day="d5">
+        <ol class="timeline">
+          <li><span class="t-time">08:30 – 13:00</span>
+            <div class="t-body"><h4>Sellin & Baabe</h4>
+              <p><strong>⑤ Nordstrand Sellin</strong> — the iconic pier walkway and sea-wall views.<br><strong>⑥ Südstrand Sellin</strong> — calm, sheltered entry past the cliffs.<br><strong>⑦ Baabe Beach</strong> — wide fine-sand resort line, gentle wading.</p>
+              <span class="t-tag">🚌 Bus 20 (Binz→Sellin) · ~15 min</span></div></li>
+          <li><span class="t-time">13:00 – 15:00</span>
+            <div class="t-body"><h4>Midday break · Holiday rental</h4>
+              <p>A quick home-cooked lunch and clearing out the fresh provisions.</p>
+              <span class="t-tag">🏡 Rest</span></div></li>
+          <li><span class="t-time">15:15 – 20:30</span>
+            <div class="t-body"><h4>Göhren Peninsula</h4>
+              <p><strong>⑧ Göhren Nordstrand</strong> — lively promenade, flat shallows, pier walks.<br><strong>⑨ Südstrand Göhren</strong> — wild and natural, stones blended with sand; the ultimate quiet sunset.</p>
+              <span class="t-tag">🚌 Bus 20 / local links · ~25 min</span></div></li>
+          <li><span class="t-time">21:00 →</span>
+            <div class="t-body"><h4>Final group dinner</h4>
+              <p>Back at the rental — cook together and pack bags for the early departure.</p>
+              <span class="t-tag">🏡 Wind down</span></div></li>
+        </ol>
+      </div>
+      <div class="day-panel" data-day="d6">
+        <ol class="timeline">
+          <li><span class="t-time">06:30 – 17:00</span>
+            <div class="t-body"><h4>Return journey · Rügen → Frankfurt</h4>
+              <p>A daytime trip home along the regional network. ~10.5 hours — watch the coast slip away.</p>
+              <span class="t-tag">🚆 Regional Trains</span></div></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="container" data-comments="itinerary"></div>
+</section>
+
+<!-- ========== CONNECTIONS ========== -->
+<section class="section section-alt" id="connections">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Getting There</span>
+      <h2>Frankfurt → Rügen connections</h2>
+      <p class="lead">Two regional-only corridors that work with the Deutschland-Ticket (€0). Legs are marked for how smooth they are. These are representative timings — <strong>always confirm live times in the DB Navigator app on the day</strong>, as regional night service is sparse and changes often.</p>
+    </div>
+
+    <div class="legend">
+      <span class="legend-item"><b class="dot good"></b> Smooth — short, reliable transfer</span>
+      <span class="legend-item"><b class="dot ok"></b> Caution — fewer services / medium wait</span>
+      <span class="legend-item"><b class="dot bad"></b> Weak link — long night wait, plan a backup</span>
+    </div>
+
+    <div class="conn-grid">
+      <!-- Corridor A -->
+      <article class="conn-card recommended">
+        <div class="conn-head">
+          <h3>Corridor A · via Berlin</h3>
+          <span class="conn-badge">Recommended</span>
+        </div>
+        <p class="conn-sub">Fewest transfers · most reliable final legs (RE5 + RE9)</p>
+        <ol class="legs">
+          <li class="leg good"><div class="leg-route">Frankfurt (Main) Hbf → Erfurt Hbf</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~2h40 ride</span><span>⏱ wait ~15 min</span></div></li>
+          <li class="leg ok"><div class="leg-route">Erfurt → Leipzig Hbf</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~1h20 ride</span><span>⏱ wait ~30 min</span></div></li>
+          <li class="leg bad"><div class="leg-route">Leipzig → Berlin Hbf</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~1h45 ride</span><span>⏱ overnight wait ~1–2h</span></div></li>
+          <li class="leg good"><div class="leg-route">Berlin Hbf → Stralsund Hbf</div><div class="leg-meta"><span class="leg-train">RE5</span><span>🕓 ~3h00 ride</span><span>⏱ wait ~20 min</span></div></li>
+          <li class="leg good"><div class="leg-route">Stralsund → Bergen → Ostseebad Binz</div><div class="leg-meta"><span class="leg-train">RE9</span><span>🕓 ~1h00 ride</span><span>🏁 arrive</span></div></li>
+        </ol>
+        <div class="conn-foot">
+          <span>🔁 4 changes</span><span>🚆 ride ~9h</span><span>⏳ waits ~2–3h</span><span class="conn-total">≈ 10–11h total</span>
+        </div>
+      </article>
+
+      <!-- Corridor B -->
+      <article class="conn-card">
+        <div class="conn-head">
+          <h3>Corridor B · via Hamburg</h3>
+          <span class="conn-badge alt">Backup</span>
+        </div>
+        <p class="conn-sub">More transfers, but a good fallback if the Berlin line is disrupted</p>
+        <ol class="legs">
+          <li class="leg ok"><div class="leg-route">Frankfurt (Main) Hbf → Kassel-Wilhelmshöhe</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~2h30 ride</span><span>⏱ wait ~20 min</span></div></li>
+          <li class="leg ok"><div class="leg-route">Kassel → Göttingen → Hannover Hbf</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~2h00 ride</span><span>⏱ 2 short hops</span></div></li>
+          <li class="leg good"><div class="leg-route">Hannover → Hamburg Hbf</div><div class="leg-meta"><span class="leg-train">RE / metronom</span><span>🕓 ~1h20 ride</span><span>⏱ wait ~25 min</span></div></li>
+          <li class="leg bad"><div class="leg-route">Hamburg → Stralsund Hbf</div><div class="leg-meta"><span class="leg-train">RE</span><span>🕓 ~3h00 ride</span><span>⏱ few evening services</span></div></li>
+          <li class="leg good"><div class="leg-route">Stralsund → Ostseebad Binz</div><div class="leg-meta"><span class="leg-train">RE9</span><span>🕓 ~1h00 ride</span><span>🏁 arrive</span></div></li>
+        </ol>
+        <div class="conn-foot">
+          <span>🔁 4–5 changes</span><span>🚆 ride ~10h</span><span>⏳ waits ~2h</span><span class="conn-total">≈ 11–12h total</span>
+        </div>
+      </article>
+    </div>
+
+    <div class="conn-note">
+      <strong>💡 Faster paid option:</strong> An ICE Frankfurt → Berlin (~4h) + RE9 onward gets you to Binz in roughly <b>7.5–8h</b> with one easy change — but ICE/IC are <em>not</em> covered by the Deutschland-Ticket, so it costs extra per person. Keep it in your back pocket if a regional leg falls through.
+    </div>
+  </div>
+  <div class="container" data-comments="connections"></div>
+</section>
+
+<!-- ========== ROUTE TABLE ========== -->
+<section class="section" id="route">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Logistics</span>
+      <h2>Complete master route</h2>
+      <p class="lead">The whole plan as an at-a-glance schedule — grouped by day, colour-coded by phase, with the travel mode for every move.</p>
+    </div>
+    <div class="route" id="route-board"><!-- rendered by app.js --></div>
+  </div>
+  <div class="container" data-comments="route-table"></div>
+</section>
+
+<!-- ========== MAP ========== -->
+<section class="section section-alt" id="map">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Orientation</span>
+      <h2>Route & beach locations</h2>
+      <p class="lead">From Binz in the north down to Göhren — the whole resort coast on one map.</p>
+    </div>
+    <div class="map-frame">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m13!1m3!1d148721.57963334693!2d13.51351185348877!3d54.38714101140994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbeaches%20binz%20sellin%20baabe%20gohren!5e0!3m2!1sen!2sde!4v1716920000000!5m2!1sen!2sde" width="100%" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Rügen beaches map"></iframe>
+    </div>
+  </div>
+  <div class="container" data-comments="map"></div>
+</section>
+
+<!-- ========== BEACHES ========== -->
+<section class="section" id="beaches">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">The Directory</span>
+      <h2>All nine beaches</h2>
+      <p class="lead">Filter by vibe, then dive into each shoreline's character, access and what makes it worth the stop.</p>
+    </div>
+    <div class="filter-bar" id="beachFilter">
+      <button class="filter-chip is-active" data-filter="all">All</button>
+      <button class="filter-chip" data-filter="lively">Lively</button>
+      <button class="filter-chip" data-filter="quiet">Quiet</button>
+      <button class="filter-chip" data-filter="scenic">Scenic</button>
+    </div>
+    <div class="beach-grid" id="beachGrid"><!-- rendered by app.js --></div>
+  </div>
+  <div class="container" data-comments="beaches"></div>
+</section>
+
+<!-- ========== WEATHER ========== -->
+<section class="section section-alt" id="weather">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Outlook</span>
+      <h2>Weather forecast</h2>
+      <p class="lead">An early outlook for the trip window (source: meteoblue / climatology for Rügen). Baltic weather shifts fast — recheck a few days before you travel. The headline: a warm, bright Day 1 on the island, then showers and possible thunderstorms rolling in for Day 2.</p>
+    </div>
+    <div class="weather-grid" id="weatherGrid"><!-- rendered by app.js --></div>
+    <div class="weather-note">
+      ⚠️ <strong>Heads-up for Jun 5:</strong> mostly cloudy with showers and possible thunderstorms (10–20 mm). Pack rain jackets, time the Göhren sunset around the radar, and know your last Bus 20 back to Binz.
+    </div>
+  </div>
+  <div class="container" data-comments="weather"></div>
+</section>
+
+<!-- ========== PLANNER ========== -->
+<section class="section" id="planner">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get Ready</span>
+      <h2>Costs & packing planner</h2>
+      <p class="lead">A clear per-person cost breakdown (set for a group of 6) plus an extensive, group-shared packing checklist — your ticks save automatically in your browser.</p>
+    </div>
+
+    <div class="planner-grid">
+      <!-- COST BREAKDOWN -->
+      <div class="planner-card cost-card">
+        <div class="planner-card-head">
+          <h3>💶 Cost breakdown</h3>
+          <div class="group-stepper">
+            <span>Group size</span>
+            <button id="grpMinus" aria-label="Fewer people">−</button>
+            <strong id="grpCount">6</strong>
+            <button id="grpPlus" aria-label="More people">+</button>
+          </div>
+        </div>
+        <table class="cost-table" id="costTable"><!-- rendered by app.js --></table>
+        <div class="cost-totals">
+          <div class="cost-total-box pp"><span>Per person</span><strong id="costPP">€100</strong></div>
+          <div class="cost-total-box grp"><span>Group total (<i id="grpEcho">6</i>)</span><strong id="costGroup">€600</strong></div>
+        </div>
+        <p class="planner-note">Accommodation covers 2 nights (Jun 4 & Jun 5). Rail & local transit are €0 on the Deutschland-Ticket.</p>
+      </div>
+
+      <!-- PACKING -->
+      <div class="planner-card">
+        <div class="planner-card-head">
+          <h3>🎒 Packing checklist</h3>
+          <span class="planner-progress" id="packProgress">0 / 0</span>
+        </div>
+        <div class="progress-bar"><div class="progress-fill" id="packBar"></div></div>
+        <div class="pack-scroll"><ul class="checklist" id="packList"><!-- rendered by app.js --></ul></div>
+        <form class="add-item" id="addPackForm">
+          <input type="text" id="addPackInput" placeholder="Add your own item…" maxlength="80">
+          <button type="submit">Add</button>
+        </form>
+        <button class="pack-reset" id="packReset" type="button">↺ Reset to default list</button>
+      </div>
+
+      <!-- TIPS -->
+      <div class="planner-card planner-tips">
+        <div class="planner-card-head"><h3>🌤️ Smart tips for June</h3></div>
+        <ul class="tip-list">
+          <li><span>🌊</span> Baltic water is brisk in early June (~15–17 °C) — great for wading, bracing for swimming.</li>
+          <li><span>🧴</span> Long beach days = strong reflection. Pack high-SPF and a light cover-up.</li>
+          <li><span>👟</span> Göhren's Südstrand is stony — water shoes make the wild beaches comfortable.</li>
+          <li><span>🌧️</span> Showers likely on Jun 5 — a packable rain jacket beats a bulky umbrella in the wind.</li>
+          <li><span>💨</span> Sea breeze drops the "feels-like" temp fast — bring a warm layer for evenings.</li>
+          <li><span>🚌</span> Check the last Bus 20 back to Binz before settling in for sunset.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="container" data-comments="planner"></div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <span class="brand-mark">🌊</span>
+      <span class="brand-text">Rügen<strong>Coast</strong></span>
+      <p>A four-day Baltic coastline expedition · 9 beaches · 6 friends · €0 transit.</p>
+    </div>
+    <div class="footer-cols">
+      <a href="#crew">Crew</a>
+      <a href="#itinerary">Itinerary</a>
+      <a href="#connections">Getting there</a>
+      <a href="#beaches">Beaches</a>
+      <a href="#planner">Planner</a>
+    </div>
+  </div>
+  <p class="footer-fine">Crafted for the crew · June 3–6 · Comments are saved to the trip log.</p>
+</footer>
+
+<template id="commentTemplate">
+  <div class="comments">
+    <div class="comments-head">
+      <h3>💬 <span class="c-title">Notes for the crew</span></h3>
+      <span class="comments-count">0 comments</span>
+    </div>
+    <form class="comment-form">
+      <div class="comment-fields">
+        <input type="text" class="c-name" placeholder="Your name" maxlength="60" required>
+        <textarea class="c-text" placeholder="Add a comment for the group…" maxlength="2000" rows="2" required></textarea>
+      </div>
+      <div class="comment-form-foot">
+        <span class="c-error"></span>
+        <button type="submit" class="btn btn-primary btn-sm">Post comment</button>
+      </div>
+    </form>
+    <ul class="comment-list"></ul>
+  </div>
+</template>
+
+<script src="/js/app.js" defer></script>
+</body>
+</html>
