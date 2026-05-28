@@ -13,6 +13,7 @@ const CREW = [
   { name: "Rokan",   title: "Snack Commander",       quip: "Packs more chips than clothes. No regrets.", style: "big-smile" },
   { name: "Showkat", title: "Tide & Bus 20 Navigator", quip: "Knows the timetable better than the timetable.", style: "adventurer" },
   { name: "Yousuf",  title: "Hydration Hero",        quip: "Carries the cool bag like it's a national treasure.", style: "croodles" },
+  { name: "Hasan",   title: "Chief Vibes Photographer", quip: "Took 400 photos of the same wave. All keepers, apparently.", style: "lorelei" },
   { name: "Paul",    title: "Official Pier Inspector", quip: "Has personally approved all 394 m of the Sellin pier.", style: "thumbs" },
   { name: "Kabir",   title: "Vibe Curator & Beach DJ", quip: "Aux cord rights secured for the entire trip.", style: "micah" },
 ];
