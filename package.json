@@ -1,7 +1,7 @@
 {
   "name": "beach-tour",
   "version": "1.0.0",
-  "description": "Rügen Coastline Master Plan — interactive tour guide, planner & file-based comments",
+  "description": "Sylt Coastline Master Plan — interactive tour guide, planner & file-based comments",
   "type": "module",
   "main": "server.js",
   "scripts": {

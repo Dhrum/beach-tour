@@ -1,12 +1,12 @@
-# 🌊 Beach Tour — Rügen Coastline Master Plan
+# 🌊 Beach Tour — Sylt Coastline Master Plan
 
 An interactive tour guide, day-by-day itinerary, planner and **file-based commenting**
-website for a four-day, nine-beach trip along Germany's Rügen island.
+website for a three-day, twelve-beach trip on Germany's Sylt island.
 
 ## Features
 
-- **Static plan** — hero, trip overview, 4-day interactive itinerary, full route table,
-  embedded map, and a filterable directory of all 9 beaches.
+- **Static plan** — hero, trip overview, 3-day interactive itinerary, Frankfurt→Hamburg→Sylt train connections,
+  embedded map, and a filterable directory of all 12 beaches & spots.
 - **Interactive planner** — packing checklist + quick budget (saved in your browser).
 - **Comments per section** — anyone can post a note with just a **name + comment**.
   Comments are stored on disk as JSON files in `data/comments/` (one file per section).
@@ -19,6 +19,16 @@ npm start        # → http://localhost:3000
 ```
 
 Use `npm run dev` for auto-reload while editing the server.
+
+## Trip at a glance
+
+| Day | Focus |
+|-----|--------|
+| **Jun 4** | Depart Frankfurt Hbf **05:20** → Hamburg → Westerland (~18:00–19:00), settle in base |
+| **Jun 5** | Full island beach day — all 12 stops via SVG buses from Westerland ZOB |
+| **Jun 6** | Morning on the south tip until **12:30**, return to Frankfurt via Hamburg |
+
+Base: **Westerland** (main hub). Distances and bus times are from **Westerland Hauptstrand**.
 
 ## How comments are stored
 
@@ -44,12 +54,6 @@ This project auto-detects **Upstash Redis** and uses it when available.
 
 > Without a database connected, the site still loads fully — but posting a comment
 > will fail, since serverless functions can't write to disk.
-
-### Prefer a disk-based host instead?
-
-On **Render / Railway / Fly.io** the file backend works unchanged — just deploy and
-run `npm start`. Note: free Render/Railway disks are *ephemeral* (wiped on redeploy),
-so Upstash on Vercel is the more reliable free option.
 
 ## Project layout
 
